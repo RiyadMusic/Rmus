@@ -1,4 +1,4 @@
-# Telegramda yani ben boş işler müdürü :) <> @Mahoaga Tarafından düzenlenen ufak çaplı proje. 
+# Telegramda ufak çaplı proje. 
 import os
 import requests
 import aiohttp
@@ -45,7 +45,7 @@ def bul(client, message):
 
     except Exception as e:
         m.edit(
-            "❌ Hiçbir şey bulamadım. Pardon.\n\nBaşka bir anahtar kelime deneyin veya belki düzgün hecele."
+            "⁉️ Üzgünüm. Birşey Bulamadım.\n\nBaşka bir anahtar kelime deneyebilirsin yada harf hatası varsa düzeltebilirsin."
         )
         print(str(e))
         return
