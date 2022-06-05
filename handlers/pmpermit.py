@@ -18,7 +18,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                "Merhaba, Müzik asistanı hizmetidir.\n\n ❗️ kurallar:\n - Sohbete izin yok.\n - Bilgi ve Komutlarım için grubunuz sohbetinde **/bilgi** yazarsanız. (Asistan sohbetine bilgi yazmayın.) Müzik komutlarını ögrenebilirsiniz. \n - İstenmeyen postaya izin verilmez \n\n 🚨 **Userbot Grubunuza Katılmıyorsa >> DAVET KATILMA ÖZELLİĞİ VE SES YÖNETİMİ ÖZELLİKLERİ VER YÖNETİCİ YAPIN. <<**\n\n ⚠️ DİKKAT: Burada bir mesaj gönderiyorsanız. Yöneticinin iletinizi göreceği anlamına gelir.\n - Özel bilgileri burada paylaşmayınız. (Müzik Botunu Lütfen Gizli Grublara almayınız.) 📚 Bilgi için [Sahip 🧩](https://t.me/EfsaneLions) 🇹🇷\n",
+                "Merhaba, RapidMusic asistan hizmetidir.\n\n ❗️ Dikkat:\n - Ben Sizinle Sohbet Edemem.\n - Bilgi veya Komutlar için grubunuzun sohbetinde **/bilgi** yazarsanız müzik komutlarını ögrenebilirsiniz. \n - ASİSTAN HESABINA YAZACAĞINIZ HİÇ BİR KOMUT GEÇERLİ DEĞİLDİR. \n\n 🚨 **RapidMusicAsistant Grubunuza Katılmıyorsa >> DAVETLE KATILMA ÖZELLİĞİ VE SES YÖNETİMİ ÖZELLİKLERİ VEREREK YÖNETİCİ YAPIN. <<**\n\n ⚠️ DİKKAT: Burada bir mesaj gönderiyorsanız. Yöneticinin iletinizi göreceği anlamına gelir.\n - Özel bilgileri burada paylaşmayınız. (Müzik Botunu Lütfen Gizli Gruplara almayınız.) 📚 Bilgi için [Sahip 🧩](@EfsaneLions) 🇹🇷\n",
             )
             return
  
